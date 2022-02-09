@@ -1,7 +1,7 @@
 import React from 'react';
 
-const PrimaryButton = () => {
-  return <div>Envoyer</div>;
+const PrimaryButton = ({ children }) => {
+  return <button>{children}</button>;
 };
 
 export default PrimaryButton;
